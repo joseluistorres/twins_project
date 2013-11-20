@@ -37,4 +37,4 @@ gem 'jquery-rails'
 
 # To use debugger
 gem 'debugger'
-gem 'activeadmin', :git => 'git@github.com:gregbell/active_admin.git'
+gem 'activeadmin', '0.6.1'
