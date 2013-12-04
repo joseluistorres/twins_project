@@ -6,7 +6,7 @@ gem 'rails', '3.2.12'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-
+gem 'sqlite3'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -38,3 +38,10 @@ gem 'jquery-rails'
 # To use debugger
 gem 'debugger'
 gem 'activeadmin', '0.6.1'
+
+group :test do
+  gem 'rspec-rails', '~> 3.0.0.beta'
+  gem 'database_cleaner'
+  gem 'factory_girl_rails'
+  gem 'capybara'
+end
